@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Job Search Dashboard
 
-## Available Scripts
+# Description
 
-In the project directory, you can run:
+a web application that helps users to search for their desired jobs,
+it only needs to enter a keyword for a job to find result, it is completely responsive,
+and designed mobile first, users can save the job and can come back to see the saved
+jobs even if they closed their browsers. also users can see details for each searched
+job.
 
-### `npm start`
+# Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Able to search for any job.
+2. Shows the results in the left side bar.
+3. Clicking on each job result is causing of rendering Job details.
+4. Job detail is include of job title, job location, published date, salary, description, link for applying job, category, company, and job type.
+5. In the description of job user can expand the job description or collapse.
+6. User is able to store it's desired job in the Saved job section of the web site.
+7. Able to delete job from saved job section.
+8. Saved jobs are persist in the web site even if the browser is closed, with the power of using local storage.
+9. Shows at the top right the number of results found for a searched job.
+10. Search input field gets focused when the website is opened firstly and then if user is anywhere in the website then pressing Enter key will cause to focus the search input,
+11. Pressing ESC key at all can cause to close job detail section of the website.
+12. User can only save one job, it is not able to save the same job again and again.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Technologies I have used
 
-### `npm test`
+1. HTML, HTML5
+2. CSS, CSS3
+3. Tailwincss V3
+4. JavaScript (ES6+)
+5. React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# What I have learned
 
-### `npm run build`
+1. Understanding of useEffect, useRef hooks.
+2. Working with APIs,
+3. Understanding of State management. using state for error handling and updating UI based on different
+   error states, rendering a loader state when api is fetching data from the server.
+4. Understanding of dealing with external dom that is coming out of external apis as string, and how to sanitize
+   them and how to set them as the children of an element.
+5. Understanding of how can I use tailwindcss version 3 with CRA (Create-react-app).
+6. Enhance my debbuging skills.
+7. Understanding of using custom hooks, when to use them and how.
+8. Understanding of component reusability and component composition.
+9. Understanding of how to manipulate the Dom using useEffect hook.
+10. Understanding of how to get data from one component and render that in another component based on state.
+11. Understanding of different life cycles of the component.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# live demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Timeline
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+from 18 February 2026 up to 1 March 2026

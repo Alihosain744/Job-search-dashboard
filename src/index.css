@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+  width: 40%;
+  max-width: 100%;
+  height: 70vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+
+  box-shadow: 1px 3px 5px #8585f0;
+}
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar-thumb {
+  background: lightblue;
+  border-radius: 25px;
+}
+.height-full {
+  min-height: 100vh;
+}
+.job-description p {
+  margin-bottom: 0.3rem;
+  line-height: 1.6;
+}
+.job-description ul {
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+.job-description li {
+  margin-bottom: 0.3rem;
+}
+.job-description strong {
+  color: #111;
+}
+.job-description .h3 {
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+
+@media screen and (max-width: 748px) {
+  .box {
+    width: 90%;
+    max-width: 100%;
+
+    margin: 10px 20px;
+  }
+  .nav {
+    position: relative;
+  }
+  .num-results {
+    position: absolute;
+    top: 2;
+  }
 }
