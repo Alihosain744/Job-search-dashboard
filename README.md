@@ -32,6 +32,7 @@ job.
 3. Tailwincss V3
 4. JavaScript (ES6+)
 5. React
+   //
 
 # What I have learned
 

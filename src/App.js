@@ -87,7 +87,7 @@ function JobSearchDashboard() {
     </div>
   );
 }
-
+//
 function Nav({ children }) {
   return (
     <nav className="flex flex-col items-center   md:flex-row  md:justify-between md:items-center bg-blue-100 min-h-14 border-2 border-blue-300 rounded-lg shadow-xl p-3  ">

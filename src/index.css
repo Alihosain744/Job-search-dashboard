@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/**/
 .box {
   width: 40%;
   max-width: 100%;

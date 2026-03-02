@@ -7,6 +7,7 @@ export function useLocalStorageState(key, initialState) {
     return Array.isArray(parsed) ? parsed : initialState;
   });
 
+  //
   useEffect(
     function () {
       localStorage.setItem(key, JSON.stringify(value));

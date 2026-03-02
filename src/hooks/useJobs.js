@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+//
 export function useJobs(query) {
   const [jobs, setJobs] = useState([]);
   const [error, setError] = useState("");

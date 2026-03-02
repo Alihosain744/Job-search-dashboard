@@ -26,5 +26,5 @@ const LoaderSVG = ({ size = 48, color = "#3b82f6" }) => (
     </circle>
   </svg>
 );
-
+//
 export default LoaderSVG;
